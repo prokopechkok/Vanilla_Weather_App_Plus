@@ -30,7 +30,7 @@ li:first-letter {
   text-transform: capitalize;
 }
 .weather-app-wrapper {
-  max-width: 600 px;
+  max-width: 600px;
   margin: 30px auto;
 }
 .weather-app {
@@ -68,4 +68,22 @@ li:first-letter {
 }
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+.btn-primary {
+  background: #132743;
+  border-color: none;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  font-weight: 200;
+}
+.btn-primary:hover {
+  background: #407088;
+}
+.form-control {
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  margin-bottom: 3px;
+  text-align: center;
 }
