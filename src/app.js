@@ -49,7 +49,7 @@ function displayTemperature(response) {
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
-  
+
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
@@ -73,9 +73,8 @@ function displayFahrenheitTemp(event) {
   fahrenheitLink.classList.add("active");
   let fahrenheitTemp = (celsiusTemp * 9) / 5 + 32;
   temperatureElement.innerHTML = Math.round(fahrenheitTemp);
-
-  let celsiusTemp = null;
 }
+let celsiusTemp = null;
 
 function displayCelsiusTemp(event) {
   event.preventDefault();
